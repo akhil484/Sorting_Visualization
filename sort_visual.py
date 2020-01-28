@@ -92,7 +92,7 @@ if __name__=='__main__':
 		iteration[0] += 1
 		text.set_text(f"# of operations: {iteration[0]}")
 
-	#fun is to call a function recursively with fargs as additional arguements
+	#func is to call a function recursively with fargs as additional arguements
 	anim = animation.FuncAnimation(fig, func=update_fig,fargs=(bars, iteration), frames=generator, interval=1,repeat=False)
 	plt.show()
 
